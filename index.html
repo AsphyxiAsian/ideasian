@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f7f4">
+
+  <title>Ideasian</title>
+  <meta name="description" content="Small tools, experiments, fixes, and ideas made useful.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Ideasian home">
+        <svg class="brand-mark" viewBox="0 0 120 58" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 8h35c17 0 29 12 29 29 0 13-10 21-23 21-17 0-29-11-31-28L7 8Z"/>
+            <path d="M113 8H78c-17 0-29 12-29 29 0 13 10 21 23 21 17 0 29-11 31-28L113 8Z"/>
+            <path d="M21 37c8 2 14-5 21-5 6 0 11 3 16 8"/>
+            <path d="M99 37c-8 2-14-5-21-5-6 0-11 3-16 8"/>
+          </g>
+        </svg>
+        <span>IDEASIAN</span>
+      </a>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">A home for useful little ideas</div>
+      <h1>
+        Ideas happen.<br>
+        <span>Sometimes I make them.</span>
+      </h1>
+      <p class="hero-copy">
+        Tiny tools, experiments, fixes, and other things that apparently needed to exist.
+      </p>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="section-kicker">Things I've made</p>
+        <h2 id="projects-title">Currently useful</h2>
+      </div>
+
+      <a class="project-card" href="https://frame.ideasian.com">
+        <div class="project-art" aria-hidden="true">
+          <div class="grid"></div>
+          <div class="measure-line measure-line-a"></div>
+          <div class="measure-line measure-line-b"></div>
+          <div class="puzzle-corner puzzle-corner-tl"></div>
+          <div class="puzzle-corner puzzle-corner-br"></div>
+
+          <svg class="project-mark" viewBox="0 0 120 58">
+            <g fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 8h35c17 0 29 12 29 29 0 13-10 21-23 21-17 0-29-11-31-28L7 8Z"/>
+              <path d="M113 8H78c-17 0-29 12-29 29 0 13 10 21 23 21 17 0 29-11 31-28L113 8Z"/>
+              <path d="M21 37c8 2 14-5 21-5 6 0 11 3 16 8"/>
+              <path d="M99 37c-8 2-14-5-21-5-6 0-11 3-16 8"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="project-content">
+          <div>
+            <p class="project-type">Tool · 3D printing</p>
+            <h3>Puzzle Frame Calculator</h3>
+            <p>
+              Enter your puzzle size and get the modular frame pieces you need to print.
+            </p>
+          </div>
+
+          <span class="project-link">
+            Open project
+            <span aria-hidden="true">↗</span>
+          </span>
+        </div>
+      </a>
+
+      <div class="soon-card">
+        <span class="soon-dot"></span>
+        <p>More questionable ideas forthcoming.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Ideasian</span>
+    <span class="footer-note">Made because apparently it needed to exist.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
